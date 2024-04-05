@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeJeweler</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    
+</style>
+
+<body>
+    <header class="header d-flex">
+        <nav>
+            <ul class="menu-ul d-flex mb-0 pl-0" id="menu-ul">
+                <li><a href="#"><span class="fa fa-times d-none"></span>
+                </a></li>
+                
+                <li class="my-active" id="my-active1" onclick="borderBottom1()"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i>
+                    </a></li>
+                
+                <li id="my-active2" onclick="borderBottom2()"><a href="#product">products</a></li>
+                
+                <li id="my-active3" onclick="borderBottom3()"><a href="#about">about</a></li>
+                
+                <li id="my-active4" onclick="borderBottom4()"><a href="#inspirations">inspirations</a></li>
+                
+                <li id="my-active5" onclick="borderBottom5()"><a href="#contact">contact</a></li>
+            </ul>
+
+            <!-- mobile menu -->
+            <div class="nav-toggle">
+                <span class="fa fa-bars"></span>
+                <!-- <span class="fa fa-times d-none"></span> -->
+            </div>
+        </nav>
+
+
+
+        <!-- Logo -->
+        <div id="logo" class="d-flex">
+            <a href="#"><img src="Images/jeweler2.svg" alt=""></a>
+        </div>
+
+        <!-- nav-right -->
+        <div class="nav-right d-flex">
+            <div class="nav-right-wrapper d-flex">
+                <a href="#"></a>
+                <div class="nav-iconBox">
+                    <a href="#">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <div class="nav-iconBox">
+                    <a href="#">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <sup>0</sup>
+                    </a>
+                </div>
+
+                <div class="nav-iconBox">
+                    <a href="#">
+                        <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                        <sup>0</sup>
+                        <span>$0.00
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+        
+    <section id="All-GroupSection">
+            <!-- ==== HOME SECTION START ==== -->
+            <section class="home" id="home">
+                <div class="home-group d-flex">
+                    <!-- HOME LEFT CONTENT -->
+                    <div class="homeleft-Content">
+                        <h6 class="title decor-left">BEJEWELRY</h6>
+                        <h1 class="title">EXCLUSIVE JEWELRY</h1>
+                        <a href="#" class="btn btn-lg my-btn">Go to shop</a>
+                    </div>
+        
+                    <!-- HOME SLIDER -->
+                    <div id="home-slider" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Images/jeweler2-product-pic1.webp" alt="">
+                            <div class="carousel-caption custom-caption">
+                                <h5 class="title">Wedding Ring <br> with 12 diamonds</h5>
+                                <div class="caption-currency">
+                                    <span class="d-block">$ 2299.90</span>
+                                    <a href="#" class="d-inline text-decoration-none">Buy now</a>
+                                </div> 
+                            </div>   
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="Images/jeweler2-product-pic7.webp" alt="">
+                            <div class="carousel-caption custom-caption">
+                                <h5 class="title">Silver Ring <br> with 12 diamonds</h5>
+                                <div class="caption-currency">
+                                    <span class="d-block">$ 899.99</span>
+                                    <a href="#" class="d-inline text-decoration-none">Buy now</a>
+                                </div>
+                            </div>   
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img src="Images/jeweler2-product-pic2.webp" alt="">
+                            <div class="carousel-caption custom-caption">
+                                <h5 class="title">Golden earrings <br> with pearls</h5>
+                                <div class="caption-currency">
+                                    <span class="d-block">$ 1329.99</span>
+                                    <a href="#" class="d-inline text-decoration-none">Buy now</a>
+                                </div>
+                            </div>   
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- HOME WRAPPER -->
+                <div class="home-wrapper d-flex">
+                    <div class="home-box text-dark">
+                        <h3 class="d-inline counter">35</h3>
+                        <p>Pellentesque tortor nibh convallis fames id lorem.</p>
+                    </div>
+                    
+                    <div class="home-box text-dark">
+                        <h3 class="d-inline counter">97</h3> <span>%</span>
+                        <p>Elit ut metus aliquam eu ac sed vel.</p>
+                    </div>
+                    
+                    <div class="home-box text-dark">
+                        <h3 class="d-inline counter">58</h3>
+                        <p>Mi aliquam in augue lectus dictum fermentum elit.</p>
+                    </div>
+                </div>
+            </section>
+  
+            <!-- ===== FULL WRAPPER SECTION START ===== -->
+            <section class="full-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <!-- full-wrapper-logo -->
+                        <div class="col-lg-12">
+                            <div class="full-wrapper-logo section-logo">
+                                <div class="section-logo-header text-center">
+                                    <figure>
+                                        <img src="Images/jeweler2-section-sep1.svg" alt="">
+                                    </figure>
+                                </div>
+            
+                                <div class="sectionlogo-head-content text-center">
+                                    <h2 class="title">3000</h2>
+                                    <p>exclusive products</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- FULL WRAPPER ROW2 -->
+                    <div class="row row2">
+                        <!-- full-wrapper-box 1 -->
+                        <div class="col-sm-6 col-md-4 col-xl-2">
+                            <div class="full-wrapper-box">
+                                <figure class="img-wrapper-box">
+                                    <img src="Images/jeweler2-category1.svg" alt="">
+                                </figure>
+                
+                                <h5 class="title">Earrings</h5>
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- full-wrapper-box 2 -->
+                        <div class="col-sm-6 col-md-4 col-xl-2">
+                            <div class="full-wrapper-box">
+                                <figure class="img-wrapper-box">
+                                    <img src="Images/jeweler2-category2.svg" alt="">
+                                </figure>
+                
+                                <h5 class="title">Tiaras</h5>
+                            </div>
+                        </div>
+                        
+                        <!-- full-wrapper-box 3 -->
+                        <div class="col-sm-6 col-md-4 col-xl-2">
+                            <div class="full-wrapper-box">
+                                <figure class="img-wrapper-box">
+                                    <img src="Images/jeweler2-category3.svg" alt="">
+                                </figure>
+                
+                                <h5 class="title">Rings</h5>
+                            </div>
+                        </div>
+                        
+                        
+                        <!-- full-wrapper-box 4 -->
+                        <div class="col-sm-6 col-md-4 col-xl-2">
+                            <div class="full-wrapper-box">
+                                <figure class="img-wrapper-box">
+                                    <img src="Images/jeweler2-category4.svg" alt="">
+                                </figure>
+                
+                                <h5 class="title">Watches</h5>
+                            </div>
+                        </div>
+                        
+                        <!-- full-wrapper-box 5 -->
+                        <div class="col-sm-6 col-md-4 col-xl-2">
+                            <div class="full-wrapper-box">
+                                <figure class="img-wrapper-box">
+                                    <img src="Images/jeweler2-category5.svg" alt="">
+                                </figure>
+                
+                                <h5 class="title">Necklaces</h5>
+                            </div>
+                        </div>
+                        
+                        <!-- full-wrapper-box 6 -->
+                        <div class="col-sm-6 col-md-4 col-xl-2">
+                            <div class="full-wrapper-box">
+                                <figure class="img-wrapper-box">
+                                    <img src="Images/jeweler2-category6.svg" alt="">
+                                </figure>
+                
+                                <h5 class="title">Bracelets</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ===== LONG IMG WRAPPER SECTION START ===== -->
+            <section class="long-img-wrapper">
+                <div class="container-fluid my-container">
+                    <div class="row">
+                        <div class="col-xl-6 pr-0">
+                            <div class="left-box">
+                                <h2 class="title text-white">NEW <br> SPRING <br> COLLECTIONS
+                                </h2>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-6 pl-0">
+                            <div class="right-box">
+                                <h2 class="title">20% <br> OFF</h2>
+                                <p>Amet ipsum, enim massa enim mattis pulvinar. Pretium sem a, sed lacus ac.</p>
+                                <a href="#longwrapper" class="btn btn-lg my-btn">Products</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ===== PRODUCT WRAPPER SECTION START ===== -->
+            <section class="product-wrapper" id="product">
+                <div class="container-fluid my-container">
+                    <!-- ROW1 -->
+                    <div class="row row1">
+                        <div class="col-lg-12">
+                            <!-- PRODUCT HEAD BOX -->
+                            <div class="product-headBox">
+                                <div class="product-head1">
+                                    <figure><img src="Images/jeweler2-headingdash.svg" alt=""></figure>
+                                    <h6 class="title mb-0">VESTIBULUM</h6>
+                                </div>
+                                <h2 class="title">PRODUCTS</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ROW2 -->
+                    <div class="row row2">
+                        <!-- PRODUCT CARD 1 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <a href="#product6">
+                                    <figure class="mb-0">
+                                        <img src="Images/jeweler2-product-pic2.webp" alt="">
+
+                                        <!-- figure container -->
+                                        <div class="figure-container">
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-paperclip"></span>
+                                                  </a>                       
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-heart-o"></span>
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-arrows"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                    
+                                    <!-- PRODUCT TEXT -->
+                                    <div class="product-text">
+                                        <a href="#product6" class="d-inline     text-decoration-none">Dark earrings</a>
+                                        <span class="product-price d-block">
+                                            $10.00 - $23.00
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCT CARD 2 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <a href="#product6">
+                                    <figure class="mb-0">
+                                        <img src="Images/jeweler2-product-pic5.webp" alt="">
+
+                                        <!-- figure container -->
+                                        <div class="figure-container">
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-paperclip"></span>
+                                                  </a>                       
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-heart-o"></span>
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-arrows"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                    
+                                    <!-- PRODUCT TEXT -->
+                                    <div class="product-text">
+                                        <a href="#product6" class="d-inline text-decoration-none">Fancy earrings</a>
+                                        <span class="product-price d-block">
+                                            $11.90 - $37.90
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCT CARD 3 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <a href="#product6">
+                                    <figure class="mb-0">
+                                        <img src="Images/jeweler2-product-pic6.webp" alt="">
+
+                                        <!-- figure container -->
+                                        <div class="figure-container">
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-paperclip"></span>
+                                                  </a>                       
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-heart-o"></span>
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-arrows"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                    
+                                    <!-- PRODUCT TEXT -->
+                                    <div class="product-text">
+                                        <a href="#product6" class="d-inline text-decoration-none">Gold necklace</a>
+                                        <span class="product-price d-block">
+                                            $100.00 - $300.00
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    
+                        <!-- PRODUCT CARD 4 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <a href="#product6">
+                                    <figure class="mb-0">
+                                        <img src="Images/jeweler2-product-pic1.webp" alt="">
+
+                                        <!-- figure container -->
+                                        <div class="figure-container">
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-paperclip"></span>
+                                                  </a>                       
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-heart-o"></span>
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-arrows"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                    
+                                    <!-- PRODUCT TEXT -->
+                                    <div class="product-text">
+                                        <a href="#product6" class="d-inline text-decoration-none">Gold rings</a>
+                                        <span class="product-price d-block">
+                                            $35.00 - $45.00
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCT CARD 5 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <a href="#product6">
+                                    <figure class="mb-0">
+                                        <img src="Images/jeweler2-product-pic8.webp" alt="">
+
+                                        <!-- figure container -->
+                                        <div class="figure-container">
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-paperclip"></span>
+                                                  </a>                       
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-heart-o"></span>
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-arrows"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </figure>
+                                    
+                                    <!-- PRODUCT TEXT -->
+                                    <div class="product-text">
+                                        <a href="#product6" class="d-inline text-decoration-none">Head crown</a>
+                                        <span class="product-price d-block">
+                                            $1,480.00 - $2,000.00
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- PRODUCT CARD 6 -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="product-card">
+                                <a href="#product6">
+                                    <figure class="mb-0">
+                                        <img src="Images/jeweler2-product-pic3.webp" alt="">
+
+                                        <!-- figure container -->
+                                        <div class="figure-container">
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-paperclip"></span>
+                                                  </a>                       
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-heart-o"></span>
+                                                </a>
+                                            </div>
+                                            
+                                            <div class="figure-box-icon">
+                                                <a href="#product6" class="f-link text-decoration-none">
+                                                    <span class="fa fa-arrows"></span>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <!-- PRODUCT CARD LABEL -->
+                                        <div class="label-box">
+                                            <span class="label">-20%</span>
+                                        </div>
+                                    </figure>
+                                    
+                                    <!-- PRODUCT TEXT -->
+                                    <div class="product-text">
+                                        <a href="#product6" class="d-inline text-decoration-none">Light earrings</a>
+                                        <span class="product-price d-block">
+                                            $12.00 - $33.00
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+                    
+                    <!-- ROW4 -->
+                    <div class="row row4">
+                        <div class="button-box">
+                            <a href="#button-box" class="btn btn-lg my-btn">Go to shop</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== ABOUT WRAPPER START ===== -->
+            <section class="about-wrapper" id="about">
+                <div class="container">
+                    <div class="row about-row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="about-box1">
+                                <h5 class="title">since</h5>
+                                <h2 class="title counter">1990</h2>
+                                <p>Nulla posuere sit pharetra convallis mattis. Neque enim mattis nibh ornare dui urna. Mattis velit donec praesent nunc tellus.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="about-box2">
+                                <figure>
+                                    <img src="Images/jeweler2-home-pic1.webp" alt="">
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="about-box3">
+                                <div class="number-box">
+                                    <h3 class="d-inline counter">35</h3>
+                                    <p>Shops all over the world</p>
+                                </div>
+                                
+                                <div class="number-box box2">
+                                    <h3 class="d-inline counter">98</h3> <span>%</span>
+                                    <p>Off happy clients</p>
+                                </div>
+                                
+                                <div class="number-box">
+                                    <h3 class="d-inline counter">58</h3>
+                                    <p>Top products used by</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== INSPIRATIONS WRAPPER START ===== -->
+            <div class="container-fluid my-container">
+                <section class="inspirations-wrapper" id="inspirations">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="inspirations-wrapper-logo section-logo">
+                                <div class="section-logo-header text-center">
+                                    <figure>
+                                        <img src="Images/jeweler2-section-sep1.svg" alt="">
+                                    </figure>
+                                </div>
+        
+                                <div class="sectionlogo-head-content text-center">
+                                    <h6 class="title">VESTIBULUM</h6>
+                                    <h2 class="title">SURPRISE
+                                        <span class="d-block">A LOVED ONE</span>
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- INSPIRATIONS CONTENT BOX -->
+                    <div class="inspirations-contentBox">
+                        <div class="container">
+                            <!-- ROW 1 -->
+                            <div class="row row1">
+                                <!-- INSPIRATIONS BOX LEFT -->
+                                <div class="col-lg-3">
+                                    <div class="inspirations-box text-right pb-5">
+                                        <h2 class="title">01</h2>
+                                        <h5 class="title text-white">Viverra venenatis donec</h5>
+                                        <p class="text-white">Vestibulum ante ipsum primis in faucibus orci luctus</p>
+                                    </div>
+                                    
+                                    <div class="inspirations-box text-right pt-5">
+                                        <h2 class="title">02</h2>
+                                        <h5 class="title text-white">Id augue fermentum</h5>
+                                        <p class="text-white">Aliquam nisi blandit aliquet etiam dolor pellentesque</p>
+                                    </div>
+                                </div>
+
+                                <!-- INSPIRATIONS BOX CENTER -->
+                                <div class="col-lg-6">
+                                    <div class="inspirations-box">
+                                        <figure>
+                                            <img src="Images/jeweler2-home-pic2.webp" alt="">
+                                        </figure>
+                                    </div> 
+                                </div>
+                                        
+                                <!-- INSPIRATIONS BOX LEFT -->
+                                <div class="col-lg-3">
+                                    <div class="inspirations-box text-left pb-5">
+                                        <h2 class="title">03</h2>
+                                        <h5 class="title text-white">Semper commodo dollud</h5>
+                                        <p class="text-white">Dui curabitur elit orci feugiat elementum sapien</p>
+                                    </div>
+                                    
+                                    <div class="inspirations-box text-left pt-5">
+                                        <h2 class="title">04</h2>
+                                        <h5 class="title text-white">Vitae nunc integer vitae</h5>
+                                        <p class="text-white">Dictumst dolor sed fringilla curabitur hendrerit vestibulum</p>
+                                    </div>
+                                </div>        
+                            </div>
+
+                            <!-- ROW 2 -->
+                            <div class="row row2">
+                                <div class="button-box text-center"><a href="#button-box" class="btn btn-lg my-btn">See offer</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- ===== CLIENTS WRAPPER ===== -->
+            <section class="clients-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-2">
+                            <a href="#client-box">
+                                <div class="client-box">
+                                    <img src="Images/jeweler2-client1.svg" alt="">
+                                </div>
+                            </a>
+                        </div>                      
+                        
+                        <div class="col-sm-4 col-md-2">
+                            <a href="#client-box">
+                                <div class="client-box">
+                                    <img src="Images/jeweler2-client2.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                                    
+                        
+                        <div class="col-sm-4 col-md-2">
+                            <a href="#client-box">
+                                <div class="client-box">
+                                    <img src="Images/jeweler2-client3.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-sm-4 col-md-2">
+                            <a href="#client-box">
+                                <div class="client-box">
+                                    <img src="Images/jeweler2-client4.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-sm-4 col-md-2">
+                            <a href="#client-box">
+                                <div class="client-box">
+                                    <img src="Images/jeweler2-client5.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="col-sm-4 col-md-2">
+                            <a href="#client-box">
+                                <div class="client-box">
+                                    <img src="Images/jeweler2-client6.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== SIGN UP WRAPPER ===== -->
+            <section class="container signUp-wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="signUp-box-logo section-logo">
+                            <div class="section-logo-header text-center mb-0">
+                                <figure class="mb-0">
+                                    <img src="Images/jeweler2-home-pic3.webp" alt="">
+                                </figure>
+                                <h6 class="title decor-left d-flex">VESTIBULUM</h6>
+                            </div>
+    
+                            <div class=" signUp-head sectionlogo-head-content text-center">
+                                <h3 class="title">Subscribe to our newsletter <span class="d-block">and grab <span class="special-text">30% OFF!</span></span></h3>
+
+                                <form action="#" class="d-flex mt-5 pt-3">
+                                    <div class="form-box">
+                                        <input type="email" name="your-email" placeholder="Your e-mail" required>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-lg my-btn">Sign up</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!-- ===== GALLERY WRAPPER ===== -->
+            <section class="gallery-wrapper">
+                <div class="container-fluid my-container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-2 pr-0 pl-0">
+                            <div class="gallery-box">
+                                <img src="Images/jeweler2-gallery-pic6.webp" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-2 pr-0 pl-0">
+                            <div class="gallery-box">
+                                <img src="Images/jeweler2-gallery-pic5.webp" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-2 pr-0 pl-0">
+                            <div class="gallery-box">
+                                <img src="Images/jeweler2-gallery-pic4.webp" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-2 pr-0 pl-0">
+                            <div class="gallery-box">
+                                <img src="Images/jeweler2-gallery-pic3.webp" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-2 pr-0 pl-0">
+                            <div class="gallery-box">
+                                <img src="Images/jeweler2-gallery-pic2.webp" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-2 pr-0 pl-0">
+                            <div class="gallery-box">
+                                <img src="Images/jeweler2-gallery-pic1.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== FOOTER WIDGET ===== -->
+            <section class="footer-widget" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-box">
+                                <figure class="figure1">
+                                    <img src="Images/jeweler2.svg" alt="">
+                                </figure>
+
+                                <p>Quam pulvinar leo euismod id eu ultricies. Placerat proin rhoncus sit.</p>
+
+                                <a href="#contact" class="btn btn-lg my-btn">Contact us</a>
+
+                                <figure class="figure2">
+                                    <img src="Images/jeweler2-footer-payment.webp" alt="">
+                                </figure>
+                            </div>
+                        </div>
+
+                        <!-- FOOTER BOX 2 -->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-box">
+                                <h5 class="title">Useful links</h5>
+                                <ul>
+                                    <li><a href="#contact">Contact us</a></li>
+                                    <li><a href="#contact">Help & About us</a></li>
+                                    <li><a href="#contact">Shipping & Returns</a></li>
+                                    <li><a href="#contact">Refund Policy</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-box pt-5">
+                                <h5 class="title">Delivery</h5>
+                                <ul>
+                                    <li><a href="#contact">How it Works</a></li>
+                                    <li><a href="#contact">Free Delivery</a></li>
+                                    <li><a href="#contact">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- FOOTER BOX 3 -->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-box">
+                                <h5 class="title">Customer service</h5>
+                                <ul>
+                                    <li><a href="#contact">Orders</a></li>
+                                    <li><a href="#contact">Downloads</a></li>
+                                    <li><a href="#contact">Addresses</a></li>
+                                    <li><a href="#contact">Account details</a></li>
+                                    <li><a href="#contact">Lost password</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- FOOTER BOX 4 -->
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-box">
+                                <h5 class="title">Need Help?</h5>
+                                <ul>
+                                    <li><a href="#contact" class="num">+61 (0) 383 766 284</a></li>
+                                    <li><a href="#contact" class="num num2">+61 (0) 383 766 284</a></li>
+                                </ul>
+                                
+                                <p class="pt-5">Monday - Friday:
+                                    <span class="d-block">8am - 5pm</span>
+                                </p>
+                                
+                                <p class="pt-1">Saturday
+                                    <span class="d-block">9am - 4pm</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== FOOTER ===== -->
+            <footer class="d-flex">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <div class="footer-text">
+                                <p>&copy; 2024 Betheme by <a href="#contact">MOHD NAVED</a> | All Rights Reserved | Powered by <a href="#contact">Bootstrap</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="arrow-box d-flex">
+                                <a href="#" class="d-flex text-decoration-none">
+                                    <span class="fa fa-arrow-up"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </section>
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Counter JQuery library -->
+    <script  src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    
+    <!-- Counter JS link -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+    <!-- Counter Js Local file Link -->
+    <script src="js/jquery.counterup.min.js"></script>
+
+    <!-- My JS File -->
+    <script src="js/index.js"></script>
+</body>
+</html>
